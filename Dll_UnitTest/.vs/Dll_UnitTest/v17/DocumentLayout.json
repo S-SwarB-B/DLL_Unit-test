@@ -3,12 +3,23 @@
   "WorkspaceRootPath": "D:\\Programming\\C#\\WorkDllAndUnitTest\\Dll_UnitTest\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A3E91438-622F-444F-8849-70D22F563CDB}|Dll_UnitTest.csproj|d:\\programming\\c#\\workdllandunittest\\dll_unittest\\schedule_management.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3E91438-622F-444F-8849-70D22F563CDB}|Dll_UnitTest.csproj|solutionrelative:schedule_management.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A3E91438-622F-444F-8849-70D22F563CDB}|Dll_UnitTest.csproj|d:\\programming\\c#\\workdllandunittest\\dll_unittest\\adddelupd\\addfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A3E91438-622F-444F-8849-70D22F563CDB}|Dll_UnitTest.csproj|solutionrelative:adddelupd\\addfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3E91438-622F-444F-8849-70D22F563CDB}|Dll_UnitTest.csproj|d:\\programming\\c#\\workdllandunittest\\dll_unittest\\schedule_management.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3E91438-622F-444F-8849-70D22F563CDB}|Dll_UnitTest.csproj|solutionrelative:schedule_management.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A3E91438-622F-444F-8849-70D22F563CDB}|Dll_UnitTest.csproj|d:\\programming\\c#\\workdllandunittest\\dll_unittest\\adddelupd\\deletefile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3E91438-622F-444F-8849-70D22F563CDB}|Dll_UnitTest.csproj|solutionrelative:adddelupd\\deletefile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3E91438-622F-444F-8849-70D22F563CDB}|Dll_UnitTest.csproj|d:\\programming\\c#\\workdllandunittest\\dll_unittest\\adddelupd\\updatefile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3E91438-622F-444F-8849-70D22F563CDB}|Dll_UnitTest.csproj|solutionrelative:adddelupd\\updatefile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F71B5205-A69F-47AF-BF66-2A8D5BE43DAF}|..\\Dll_UnitTest.Test\\Dll_UnitTest.Test.csproj|d:\\programming\\c#\\workdllandunittest\\dll_unittest.test\\testdll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +29,68 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "UpdateFile.cs",
+              "DocumentMoniker": "D:\\Programming\\C#\\WorkDllAndUnitTest\\Dll_UnitTest\\AddDelUpd\\UpdateFile.cs",
+              "RelativeDocumentMoniker": "AddDelUpd\\UpdateFile.cs",
+              "ToolTip": "D:\\Programming\\C#\\WorkDllAndUnitTest\\Dll_UnitTest\\AddDelUpd\\UpdateFile.cs",
+              "RelativeToolTip": "AddDelUpd\\UpdateFile.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAkwB4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T18:08:18.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TestDll.cs",
+              "DocumentMoniker": "D:\\Programming\\C#\\WorkDllAndUnitTest\\Dll_UnitTest.Test\\TestDll.cs",
+              "RelativeDocumentMoniker": "..\\Dll_UnitTest.Test\\TestDll.cs",
+              "ToolTip": "D:\\Programming\\C#\\WorkDllAndUnitTest\\Dll_UnitTest.Test\\TestDll.cs",
+              "RelativeToolTip": "..\\Dll_UnitTest.Test\\TestDll.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T18:02:34.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DeleteFile.cs",
+              "DocumentMoniker": "D:\\Programming\\C#\\WorkDllAndUnitTest\\Dll_UnitTest\\AddDelUpd\\DeleteFile.cs",
+              "RelativeDocumentMoniker": "AddDelUpd\\DeleteFile.cs",
+              "ToolTip": "D:\\Programming\\C#\\WorkDllAndUnitTest\\Dll_UnitTest\\AddDelUpd\\DeleteFile.cs",
+              "RelativeToolTip": "AddDelUpd\\DeleteFile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T17:41:40.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "AddFile.cs",
               "DocumentMoniker": "D:\\Programming\\C#\\WorkDllAndUnitTest\\Dll_UnitTest\\AddDelUpd\\AddFile.cs",
               "RelativeDocumentMoniker": "AddDelUpd\\AddFile.cs",
               "ToolTip": "D:\\Programming\\C#\\WorkDllAndUnitTest\\Dll_UnitTest\\AddDelUpd\\AddFile.cs",
               "RelativeToolTip": "AddDelUpd\\AddFile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAkwBAAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-08T15:32:12.397Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Schedule_Management.cs",
               "DocumentMoniker": "D:\\Programming\\C#\\WorkDllAndUnitTest\\Dll_UnitTest\\Schedule_Management.cs",
               "RelativeDocumentMoniker": "Schedule_Management.cs",
               "ToolTip": "D:\\Programming\\C#\\WorkDllAndUnitTest\\Dll_UnitTest\\Schedule_Management.cs",
               "RelativeToolTip": "Schedule_Management.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAABsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-08T12:11:30.987Z",
               "EditorCaption": ""

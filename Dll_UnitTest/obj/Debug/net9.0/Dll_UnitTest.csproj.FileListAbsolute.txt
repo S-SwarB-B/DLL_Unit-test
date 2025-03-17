@@ -20,3 +20,4 @@ D:\Programming\C#\WorkDllAndUnitTest\Dll_UnitTest\bin\Debug\net9.0\Dll_UnitTest.
 D:\Programming\C#\WorkDllAndUnitTest\Dll_UnitTest\bin\Debug\net9.0\Dll_UnitTest.dll
 D:\Programming\C#\WorkDllAndUnitTest\Dll_UnitTest\bin\Debug\net9.0\Dll_UnitTest.pdb
 D:\Programming\C#\WorkDllAndUnitTest\Dll_UnitTest\obj\Debug\net9.0\ref\Dll_UnitTest.dll
+D:\Programming\C#\WorkDllAndUnitTest\Dll_UnitTest\obj\Debug\net9.0\Dll_UnitTest.sourcelink.json

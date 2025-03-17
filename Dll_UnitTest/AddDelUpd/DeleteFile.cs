@@ -10,7 +10,16 @@ namespace Dll_UnitTest.AddDelUpd
     {
         public int DeleteFile()
         {
-            return 0;
+            try
+            {
+                File.Delete("Расписание.txt"); // очистка файла
+                File.Create("Расписание.txt");
+                return 1;
+            }
+            catch
+            {
+                return 0;
+            } 
         }
     }
 }

@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Dll_UnitTest_Start/1.0.0": {
+        "dependencies": {
+          "Dll_UnitTest": "1.0.0"
+        },
+        "runtime": {
+          "Dll_UnitTest_Start.dll": {}
+        }
+      },
+      "Dll_UnitTest/1.0.0": {
+        "runtime": {
+          "Dll_UnitTest.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Dll_UnitTest_Start/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Dll_UnitTest/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

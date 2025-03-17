@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dll_UnitTest", "Dll_UnitTes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dll_UnitTest.Test", "..\Dll_UnitTest.Test\Dll_UnitTest.Test.csproj", "{F71B5205-A69F-47AF-BF66-2A8D5BE43DAF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dll_UnitTest_Start", "..\Dll_UnitTest_Start\Dll_UnitTest_Start.csproj", "{029652D4-D3DC-4851-95A5-BC3E2539CDE3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F71B5205-A69F-47AF-BF66-2A8D5BE43DAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F71B5205-A69F-47AF-BF66-2A8D5BE43DAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F71B5205-A69F-47AF-BF66-2A8D5BE43DAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{029652D4-D3DC-4851-95A5-BC3E2539CDE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{029652D4-D3DC-4851-95A5-BC3E2539CDE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{029652D4-D3DC-4851-95A5-BC3E2539CDE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{029652D4-D3DC-4851-95A5-BC3E2539CDE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -202,3 +202,4 @@ D:\Programming\C#\WorkDllAndUnitTest\Dll_UnitTest.Test\obj\Debug\net9.0\refint\D
 D:\Programming\C#\WorkDllAndUnitTest\Dll_UnitTest.Test\obj\Debug\net9.0\Dll_UnitTest.Test.pdb
 D:\Programming\C#\WorkDllAndUnitTest\Dll_UnitTest.Test\obj\Debug\net9.0\Dll_UnitTest.Test.genruntimeconfig.cache
 D:\Programming\C#\WorkDllAndUnitTest\Dll_UnitTest.Test\obj\Debug\net9.0\ref\Dll_UnitTest.Test.dll
+D:\Programming\C#\WorkDllAndUnitTest\Dll_UnitTest.Test\obj\Debug\net9.0\Dll_UnitTest.Test.sourcelink.json

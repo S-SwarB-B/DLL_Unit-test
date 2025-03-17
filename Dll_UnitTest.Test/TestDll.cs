@@ -11,7 +11,7 @@ namespace Dll_UnitTest.Test
         {
             WorkFileAdd workFileAdd = new WorkFileAdd();
             int expected = 1;
-            int actual = workFileAdd.AddFile();
+            int actual = workFileAdd.AddFile("","","","");
 
             Assert.Equal(expected, actual);
         }
