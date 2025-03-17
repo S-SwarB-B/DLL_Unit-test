@@ -1,4 +1,5 @@
 ﻿using Dll_UnitTest.AddDelUpd;
+using Dll_UnitTest.InfoFile;
 
 namespace Dll_UnitTest
 {
@@ -8,45 +9,64 @@ namespace Dll_UnitTest
         {
             Console.Write("\n\n1 - Вывод расписаний по ID\n" +
                 "2 - Вывод всех расписаний\n" +
-                "3 - Вывод расписаний по дате\n" +
-                "4 - Вывод информации по расписаниям\n" +
-                "5 - Вывод расписания по типу\n" +
-                "6 - Вывод количества расписаний\n" +
-                "7 - Вывод расписаний по участникам\n" +
-                "8 - Вывод расписаний по организаторам\n" +
+                "3 - Вывод расписаний по дате\n" +        
+                "4 - Вывод расписания по типу\n" +
+                "5 - Вывод количества расписаний\n" +
+                "6 - Вывод расписаний по участникам\n" +
+                "7 - Вывод расписаний по организаторам\n" +
                 "Ваш выбор: ");
-            string PRK = Console.ReadLine(); // переключатель
+            string? PRK = Console.ReadLine(); // переключатель
             if (PRK == "1")
             {
-
+                WorkInfoFileID workInfoFileID = new WorkInfoFileID();
+                Console.WriteLine("\nПРОСМОТР РАСПИСАНИЙ ПО ID\n");
+                Console.Write("Идентификатор расписания: ");
+                string? ID = Console.ReadLine();
+                Error = workInfoFileID.InfoFileID(ID);
             }
             else if (PRK == "2")
             {
-
+                WorkInfoFileAll workInfoFileAll = new WorkInfoFileAll();
+                Console.WriteLine("\nПРОСМОТР ВСЕХ РАСПИСАНИЙ\n");
+                Error = workInfoFileAll.InfoFileALL();
             }
             else if (PRK == "3")
             {
-
+                WorkInfoFileDate workInfoFileDate = new WorkInfoFileDate();
+                Console.WriteLine("\nПРОСМОТР РАСПИСАНИЙ ПО ДАТЕ\n");
+                Console.Write("Дата расписания: ");
+                string? Date = Console.ReadLine();
+                Error = workInfoFileDate.InfoFileDate(Date);
             }
             else if (PRK == "4")
             {
-
+                WorkInfoFileType workInfoFileType = new WorkInfoFileType();
+                Console.WriteLine("\nПРОСМОТР РАСПИСАНИЙ ПО ТИПУ\n");
+                Console.Write("Тип расписания: ");
+                string? Type = Console.ReadLine();
+                Error = workInfoFileType.InfoFileType(Type);
             }
             else if (PRK == "5")
             {
-
+                WorkInfoFileCount workInfoFileCount = new WorkInfoFileCount();
+                Console.WriteLine("\nПРОСМОТР КОЛИЧЕСТВА РАСПИСАНИЙ\n");
+                Error = workInfoFileCount.InfoFileCount();
             }
             else if (PRK == "6")
             {
-
+                WorkInfoFilePerson workInfoFilePerson = new WorkInfoFilePerson();
+                Console.WriteLine("\nПРОСМОТР РАСПИСАНИЙ ПО ПОЛЬЗОВАТЕЛЯМ\n");
+                Console.Write("Участник расписания: ");
+                string? Person = Console.ReadLine();
+                Error = workInfoFilePerson.InfoFilePerson(Person);
             }
             else if (PRK == "7")
             {
-
-            }
-            else if (PRK == "8")
-            {
-
+                WorkInfoFileOrganizer workInfoFileOrganizer = new WorkInfoFileOrganizer();
+                Console.WriteLine("\nПРОСМОТР РАСПИСАНИЙ ПО ОРГАНИЗАТОРАМ\n");
+                Console.Write("Идентификатор расписания: ");
+                string? Organaizer = Console.ReadLine();
+                Error = workInfoFileOrganizer.InfoFileOrganizer(Organaizer);
             }
             else
             {
@@ -62,7 +82,7 @@ namespace Dll_UnitTest
                 "4 - Вывод информации по расписанию\n" +
                 "Ваш выбор: ");
 
-            string PRK = Console.ReadLine(); // переключатель
+            string? PRK = Console.ReadLine(); // переключатель
             int Error = 1; // проверка на ошибку
 
             if (PRK == "1") // добавление в расписание
@@ -70,14 +90,18 @@ namespace Dll_UnitTest
                 WorkFileAdd workFileAdd = new WorkFileAdd();
                 Console.WriteLine("\nДОБАВЛЕНИЕ В РАСПИСАНИЕ\n");
                 Console.Write("Название расписания: ");
-                string Title = Console.ReadLine();
+                string? Title = Console.ReadLine();
                 Console.Write("Тип расписания: ");
-                string Type = Console.ReadLine();
+                string? Type = Console.ReadLine();
                 Console.Write("Дата: ");
-                string Date = Console.ReadLine();
+                string? Date = Console.ReadLine();
                 Console.Write("Место: ");
-                string Position = Console.ReadLine();
-                Error = workFileAdd.AddFile(Title, Type, Date, Position);
+                string? Position = Console.ReadLine();
+                Console.Write("Участник: ");
+                string? Person = Console.ReadLine();
+                Console.Write("Организатор: ");
+                string? Organizer = Console.ReadLine();
+                Error = workFileAdd.AddFile(Title, Type, Date, Position, Person, Organizer);
             }
             else if (PRK == "2") // очистка расписания
             {
@@ -91,16 +115,20 @@ namespace Dll_UnitTest
                 WorkUpdateFile workUpdateFile = new WorkUpdateFile();
                 Console.WriteLine("\nИЗМЕНЕНИЕ РАСПИСАНИЯ\n");
                 Console.Write("Идентификатор расписания: ");
-                string ID = Console.ReadLine();
+                string? ID = Console.ReadLine();
                 Console.Write("Название расписания: ");
-                string Title = Console.ReadLine();
+                string? Title = Console.ReadLine();
                 Console.Write("Тип расписания: ");
-                string Type = Console.ReadLine();
+                string? Type = Console.ReadLine();
                 Console.Write("Дата: ");
-                string Date = Console.ReadLine();
+                string? Date = Console.ReadLine();
                 Console.Write("Место: ");
-                string Position = Console.ReadLine();
-                Error = workUpdateFile.UpdateFile(ID,Title,Type,Date,Position);
+                string? Position = Console.ReadLine();
+                Console.Write("Участник: ");
+                string? Person = Console.ReadLine();
+                Console.Write("Организатор: ");
+                string? Organizer = Console.ReadLine();
+                Error = workUpdateFile.UpdateFile(ID,Title,Type,Date,Position,Person,Organizer);
             }
             else if (PRK == "4")
             {

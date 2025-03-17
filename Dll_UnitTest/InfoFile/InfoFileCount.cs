@@ -10,7 +10,24 @@ namespace Dll_UnitTest.InfoFile
     {
         public int InfoFileCount()
         {
-            return 0;
+            try
+            {
+                int countLines = 0;
+                using (StreamReader reader = new StreamReader("Расписание.txt"))
+                {
+                    string? line;
+                    while ((line = reader.ReadLine()) != null)
+                    {
+                        countLines++;
+                    }
+                }
+                Console.WriteLine($"Количество расписаний: {countLines}");
+                return 1;
+            }
+            catch
+            {
+                return 0;
+            }
         }
     }
 }

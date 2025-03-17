@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Dll_UnitTest_Start")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5dcd31443bd2c827b32dffedffcb2313662de65")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8f808234ff40bd37a57f23566fe70ccb873d31fe")]
 [assembly: System.Reflection.AssemblyProductAttribute("Dll_UnitTest_Start")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Dll_UnitTest_Start")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

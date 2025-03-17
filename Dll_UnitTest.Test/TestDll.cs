@@ -11,7 +11,7 @@ namespace Dll_UnitTest.Test
         {
             WorkFileAdd workFileAdd = new WorkFileAdd();
             int expected = 1;
-            int actual = workFileAdd.AddFile("","","","");
+            int actual = workFileAdd.AddFile("","","","","","");
 
             Assert.Equal(expected, actual);
         }
@@ -31,7 +31,7 @@ namespace Dll_UnitTest.Test
         {
             WorkUpdateFile workFileUpd = new WorkUpdateFile();
             int expected = 1;
-            int actual = workFileUpd.UpdateFile();
+            int actual = workFileUpd.UpdateFile("1","","","","","","");
 
             Assert.Equal(expected, actual);
         }

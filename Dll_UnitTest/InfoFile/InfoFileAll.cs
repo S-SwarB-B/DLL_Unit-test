@@ -10,7 +10,29 @@ namespace Dll_UnitTest.InfoFile
     {
         public int InfoFileALL()
         {
-            return 0;
+            try
+            {
+                using (StreamReader reader = new StreamReader("Расписание.txt"))
+                {
+                    string? line;
+                    string[] words;
+                    while ((line = reader.ReadLine()) != null)
+                    {
+                        words = line.Split(';');
+                        Console.Write($"{words[0]} - {words[1]}" +
+                            $"\nТип: {words[2]}" +
+                            $"\nДата: {words[3]}" +
+                            $"\nМесто: {words[4]}" +
+                            $"\nУчастник: {words[5]}" +
+                            $"\nОрганизатор: {words[6]}\n\n");
+                    }
+                }
+                return 1;
+            }
+            catch
+            {
+                return 0;
+            }
         }
     }
 }

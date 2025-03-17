@@ -10,7 +10,7 @@ namespace Dll_UnitTest.AddDelUpd
 {
     public class WorkUpdateFile
     {
-        public int UpdateFile(string ID,string Title, string Type, string Date, string Position)
+        public int UpdateFile(string? ID,string? Title, string? Type, string? Date, string? Position, string? Person, string? Organaizer)
         {
             try
             {
@@ -19,6 +19,8 @@ namespace Dll_UnitTest.AddDelUpd
                 string OLD_Type = "";
                 string OLD_Date = "";
                 string OLD_Position = "";
+                string OLD_Person = "";
+                string OLD_Organaizer = "";
                 using (StreamReader reader = new StreamReader("Расписание.txt"))
                 {
                     string? line;
@@ -33,15 +35,17 @@ namespace Dll_UnitTest.AddDelUpd
                             OLD_Type = words[2];
                             OLD_Date = words[3];
                             OLD_Position = words[4];
+                            OLD_Person = words[5];
+                            OLD_Organaizer = words[6];
                         }
                         line = line.Trim();                  
                     }                                      
                 }
-                string total_string = $"{ID};{Title};{Type};{Date};{Position}";
+                string total_string = $"{ID};{Title};{Type};{Date};{Position};{Person};{Organaizer}";
                 var text = new StringBuilder();
                 foreach (string s in File.ReadAllLines("Расписание.txt"))
                 {
-                    text.AppendLine(s.Replace($"{ID};{OLD_Title};{OLD_Type};{OLD_Date};{OLD_Position}", total_string));
+                    text.AppendLine(s.Replace($"{ID};{OLD_Title};{OLD_Type};{OLD_Date};{OLD_Position};{OLD_Person};{OLD_Organaizer}", total_string));
                 }
                 using (var file = new StreamWriter("Расписание.txt"))
                 {

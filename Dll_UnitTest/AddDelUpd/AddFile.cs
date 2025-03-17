@@ -9,7 +9,7 @@ namespace Dll_UnitTest.AddDelUpd
 {
     public class WorkFileAdd
     {
-        public int AddFile(string Title, string Type, string Date, string Position) // создание файла
+        public int AddFile(string? Title, string? Type, string? Date, string? Position, string? Person, string? Organaizer) // создание файла
         {
             try
             { 
@@ -21,7 +21,7 @@ namespace Dll_UnitTest.AddDelUpd
                         countLines++;
                     }
                 }
-                string total_string = $"{countLines+1};{Title};{Type};{Date};{Position}";
+                string total_string = $"{countLines+1};{Title};{Type};{Date};{Position};{Person};{Organaizer}";
                     
                 using (StreamWriter streamWriter = new StreamWriter("Расписание.txt", true, System.Text.Encoding.Default)) // запись в файл
                 {
