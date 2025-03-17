@@ -3,44 +3,21 @@
   "WorkspaceRootPath": "D:\\Programming\\C#\\WorkDllAndUnitTest\\Dll_UnitTest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A3E91438-622F-444F-8849-70D22F563CDB}|Dll_UnitTest.csproj|d:\\programming\\c#\\workdllandunittest\\dll_unittest\\infofile\\infofileall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3E91438-622F-444F-8849-70D22F563CDB}|Dll_UnitTest.csproj|solutionrelative:infofile\\infofileall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F71B5205-A69F-47AF-BF66-2A8D5BE43DAF}|..\\Dll_UnitTest.Test\\Dll_UnitTest.Test.csproj|d:\\programming\\c#\\workdllandunittest\\dll_unittest.test\\testdll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3E91438-622F-444F-8849-70D22F563CDB}|Dll_UnitTest.csproj|d:\\programming\\c#\\workdllandunittest\\dll_unittest\\infofile\\infofilecount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3E91438-622F-444F-8849-70D22F563CDB}|Dll_UnitTest.csproj|solutionrelative:infofile\\infofilecount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3E91438-622F-444F-8849-70D22F563CDB}|Dll_UnitTest.csproj|d:\\programming\\c#\\workdllandunittest\\dll_unittest\\infofile\\infofiledate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3E91438-622F-444F-8849-70D22F563CDB}|Dll_UnitTest.csproj|solutionrelative:infofile\\infofiledate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3E91438-622F-444F-8849-70D22F563CDB}|Dll_UnitTest.csproj|d:\\programming\\c#\\workdllandunittest\\dll_unittest\\infofile\\infofileid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3E91438-622F-444F-8849-70D22F563CDB}|Dll_UnitTest.csproj|solutionrelative:infofile\\infofileid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3E91438-622F-444F-8849-70D22F563CDB}|Dll_UnitTest.csproj|d:\\programming\\c#\\workdllandunittest\\dll_unittest\\schedule_management.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3E91438-622F-444F-8849-70D22F563CDB}|Dll_UnitTest.csproj|solutionrelative:schedule_management.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3E91438-622F-444F-8849-70D22F563CDB}|Dll_UnitTest.csproj|d:\\programming\\c#\\workdllandunittest\\dll_unittest\\infofile\\infofileorganizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3E91438-622F-444F-8849-70D22F563CDB}|Dll_UnitTest.csproj|solutionrelative:infofile\\infofileorganizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3E91438-622F-444F-8849-70D22F563CDB}|Dll_UnitTest.csproj|d:\\programming\\c#\\workdllandunittest\\dll_unittest\\infofile\\infofiletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3E91438-622F-444F-8849-70D22F563CDB}|Dll_UnitTest.csproj|solutionrelative:infofile\\infofiletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3E91438-622F-444F-8849-70D22F563CDB}|Dll_UnitTest.csproj|d:\\programming\\c#\\workdllandunittest\\dll_unittest\\infofile\\infofileperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3E91438-622F-444F-8849-70D22F563CDB}|Dll_UnitTest.csproj|solutionrelative:infofile\\infofileperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F71B5205-A69F-47AF-BF66-2A8D5BE43DAF}|..\\Dll_UnitTest.Test\\Dll_UnitTest.Test.csproj|d:\\programming\\c#\\workdllandunittest\\dll_unittest.test\\dll_unittest.test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A3E91438-622F-444F-8849-70D22F563CDB}|Dll_UnitTest.csproj|d:\\programming\\c#\\workdllandunittest\\dll_unittest\\adddelupd\\updatefile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A3E91438-622F-444F-8849-70D22F563CDB}|Dll_UnitTest.csproj|solutionrelative:adddelupd\\updatefile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3E91438-622F-444F-8849-70D22F563CDB}|Dll_UnitTest.csproj|d:\\programming\\c#\\workdllandunittest\\dll_unittest\\adddelupd\\addfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3E91438-622F-444F-8849-70D22F563CDB}|Dll_UnitTest.csproj|solutionrelative:adddelupd\\addfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A3E91438-622F-444F-8849-70D22F563CDB}|Dll_UnitTest.csproj|d:\\programming\\c#\\workdllandunittest\\dll_unittest\\infofile\\infofileall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3E91438-622F-444F-8849-70D22F563CDB}|Dll_UnitTest.csproj|solutionrelative:infofile\\infofileall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{029652D4-D3DC-4851-95A5-BC3E2539CDE3}|..\\Dll_UnitTest_Start\\Dll_UnitTest_Start.csproj|d:\\programming\\c#\\workdllandunittest\\dll_unittest_start\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,136 +27,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "InfoFileCount.cs",
-              "DocumentMoniker": "D:\\Programming\\C#\\WorkDllAndUnitTest\\Dll_UnitTest\\InfoFile\\InfoFileCount.cs",
-              "RelativeDocumentMoniker": "InfoFile\\InfoFileCount.cs",
-              "ToolTip": "D:\\Programming\\C#\\WorkDllAndUnitTest\\Dll_UnitTest\\InfoFile\\InfoFileCount.cs",
-              "RelativeToolTip": "InfoFile\\InfoFileCount.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T09:06:02.909Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "InfoFileType.cs",
-              "DocumentMoniker": "D:\\Programming\\C#\\WorkDllAndUnitTest\\Dll_UnitTest\\InfoFile\\InfoFileType.cs",
-              "RelativeDocumentMoniker": "InfoFile\\InfoFileType.cs",
-              "ToolTip": "D:\\Programming\\C#\\WorkDllAndUnitTest\\Dll_UnitTest\\InfoFile\\InfoFileType.cs",
-              "RelativeToolTip": "InfoFile\\InfoFileType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T09:03:20.939Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "InfoFilePerson.cs",
-              "DocumentMoniker": "D:\\Programming\\C#\\WorkDllAndUnitTest\\Dll_UnitTest\\InfoFile\\InfoFilePerson.cs",
-              "RelativeDocumentMoniker": "InfoFile\\InfoFilePerson.cs",
-              "ToolTip": "D:\\Programming\\C#\\WorkDllAndUnitTest\\Dll_UnitTest\\InfoFile\\InfoFilePerson.cs",
-              "RelativeToolTip": "InfoFile\\InfoFilePerson.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T09:03:13.241Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "InfoFileOrganizer.cs",
-              "DocumentMoniker": "D:\\Programming\\C#\\WorkDllAndUnitTest\\Dll_UnitTest\\InfoFile\\InfoFileOrganizer.cs",
-              "RelativeDocumentMoniker": "InfoFile\\InfoFileOrganizer.cs",
-              "ToolTip": "D:\\Programming\\C#\\WorkDllAndUnitTest\\Dll_UnitTest\\InfoFile\\InfoFileOrganizer.cs",
-              "RelativeToolTip": "InfoFile\\InfoFileOrganizer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T09:03:05.719Z",
+              "Title": "Dll_UnitTest.Test",
+              "DocumentMoniker": "D:\\Programming\\C#\\WorkDllAndUnitTest\\Dll_UnitTest.Test\\Dll_UnitTest.Test.csproj",
+              "RelativeDocumentMoniker": "..\\Dll_UnitTest.Test\\Dll_UnitTest.Test.csproj",
+              "ToolTip": "D:\\Programming\\C#\\WorkDllAndUnitTest\\Dll_UnitTest.Test\\Dll_UnitTest.Test.csproj",
+              "RelativeToolTip": "..\\Dll_UnitTest.Test\\Dll_UnitTest.Test.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-17T09:27:06.249Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "InfoFileDate.cs",
-              "DocumentMoniker": "D:\\Programming\\C#\\WorkDllAndUnitTest\\Dll_UnitTest\\InfoFile\\InfoFileDate.cs",
-              "RelativeDocumentMoniker": "InfoFile\\InfoFileDate.cs",
-              "ToolTip": "D:\\Programming\\C#\\WorkDllAndUnitTest\\Dll_UnitTest\\InfoFile\\InfoFileDate.cs",
-              "RelativeToolTip": "InfoFile\\InfoFileDate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T09:02:56.39Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "InfoFileAll.cs",
-              "DocumentMoniker": "D:\\Programming\\C#\\WorkDllAndUnitTest\\Dll_UnitTest\\InfoFile\\InfoFileAll.cs",
-              "RelativeDocumentMoniker": "InfoFile\\InfoFileAll.cs",
-              "ToolTip": "D:\\Programming\\C#\\WorkDllAndUnitTest\\Dll_UnitTest\\InfoFile\\InfoFileAll.cs",
-              "RelativeToolTip": "InfoFile\\InfoFileAll.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T08:51:55.729Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "UpdateFile.cs",
               "DocumentMoniker": "D:\\Programming\\C#\\WorkDllAndUnitTest\\Dll_UnitTest\\AddDelUpd\\UpdateFile.cs",
               "RelativeDocumentMoniker": "AddDelUpd\\UpdateFile.cs",
               "ToolTip": "D:\\Programming\\C#\\WorkDllAndUnitTest\\Dll_UnitTest\\AddDelUpd\\UpdateFile.cs",
               "RelativeToolTip": "AddDelUpd\\UpdateFile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAB9AAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T08:40:09.231Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AddFile.cs",
-              "DocumentMoniker": "D:\\Programming\\C#\\WorkDllAndUnitTest\\Dll_UnitTest\\AddDelUpd\\AddFile.cs",
-              "RelativeDocumentMoniker": "AddDelUpd\\AddFile.cs",
-              "ToolTip": "D:\\Programming\\C#\\WorkDllAndUnitTest\\Dll_UnitTest\\AddDelUpd\\AddFile.cs",
-              "RelativeToolTip": "AddDelUpd\\AddFile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T08:39:40.636Z",
+              "WhenOpened": "2025-03-17T09:26:11.889Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "InfoFileID.cs",
-              "DocumentMoniker": "D:\\Programming\\C#\\WorkDllAndUnitTest\\Dll_UnitTest\\InfoFile\\InfoFileID.cs",
-              "RelativeDocumentMoniker": "InfoFile\\InfoFileID.cs",
-              "ToolTip": "D:\\Programming\\C#\\WorkDllAndUnitTest\\Dll_UnitTest\\InfoFile\\InfoFileID.cs",
-              "RelativeToolTip": "InfoFile\\InfoFileID.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAANAAAAAAAAAA==",
+              "Title": "InfoFileAll.cs",
+              "DocumentMoniker": "D:\\Programming\\C#\\WorkDllAndUnitTest\\Dll_UnitTest\\InfoFile\\InfoFileAll.cs",
+              "RelativeDocumentMoniker": "InfoFile\\InfoFileAll.cs",
+              "ToolTip": "D:\\Programming\\C#\\WorkDllAndUnitTest\\Dll_UnitTest\\InfoFile\\InfoFileAll.cs",
+              "RelativeToolTip": "InfoFile\\InfoFileAll.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T08:38:29.329Z",
+              "WhenOpened": "2025-03-17T09:24:40.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TestDll.cs",
+              "DocumentMoniker": "D:\\Programming\\C#\\WorkDllAndUnitTest\\Dll_UnitTest.Test\\TestDll.cs",
+              "RelativeDocumentMoniker": "..\\Dll_UnitTest.Test\\TestDll.cs",
+              "ToolTip": "D:\\Programming\\C#\\WorkDllAndUnitTest\\Dll_UnitTest.Test\\TestDll.cs",
+              "RelativeToolTip": "..\\Dll_UnitTest.Test\\TestDll.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwFUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T09:23:13.602Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Schedule_Management.cs",
-              "DocumentMoniker": "D:\\Programming\\C#\\WorkDllAndUnitTest\\Dll_UnitTest\\Schedule_Management.cs",
-              "RelativeDocumentMoniker": "Schedule_Management.cs",
-              "ToolTip": "D:\\Programming\\C#\\WorkDllAndUnitTest\\Dll_UnitTest\\Schedule_Management.cs",
-              "RelativeToolTip": "Schedule_Management.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABEAAAATAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Programming\\C#\\WorkDllAndUnitTest\\Dll_UnitTest_Start\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Dll_UnitTest_Start\\Program.cs",
+              "ToolTip": "D:\\Programming\\C#\\WorkDllAndUnitTest\\Dll_UnitTest_Start\\Program.cs",
+              "RelativeToolTip": "..\\Dll_UnitTest_Start\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T12:11:30.987Z",
+              "WhenOpened": "2025-03-17T09:23:04.119Z",
               "EditorCaption": ""
             }
           ]

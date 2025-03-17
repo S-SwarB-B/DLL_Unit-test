@@ -41,7 +41,7 @@ namespace Dll_UnitTest.Test
         {
             WorkInfoFileID workInfoFileID = new WorkInfoFileID();
             int expected = 1;
-            int actual = workInfoFileID.InfoFileID();
+            int actual = workInfoFileID.InfoFileID("1");
 
             Assert.Equal(expected, actual);
         }
@@ -61,7 +61,7 @@ namespace Dll_UnitTest.Test
         {
             WorkInfoFileDate workInfoFileDate = new WorkInfoFileDate();
             int expected = 1;
-            int actual = workInfoFileDate.InfoFileDate();
+            int actual = workInfoFileDate.InfoFileDate("Сегодня");
 
             Assert.Equal(expected, actual);
         }
@@ -71,7 +71,7 @@ namespace Dll_UnitTest.Test
         {
             WorkInfoFileType workInfoFileType = new WorkInfoFileType();
             int expected = 1;
-            int actual = workInfoFileType.InfoFileType();
+            int actual = workInfoFileType.InfoFileType("Починка");
 
             Assert.Equal(expected, actual);
         }
@@ -91,7 +91,7 @@ namespace Dll_UnitTest.Test
         {
             WorkInfoFilePerson workInfoFilePerson = new WorkInfoFilePerson();
             int expected = 1;
-            int actual = workInfoFilePerson.InfoFilePerson();
+            int actual = workInfoFilePerson.InfoFilePerson("Я");
 
             Assert.Equal(expected, actual);
         }
@@ -101,7 +101,7 @@ namespace Dll_UnitTest.Test
         {
             WorkInfoFileOrganizer workInfoFileOrganizer = new WorkInfoFileOrganizer();
             int expected = 1;
-            int actual = workInfoFileOrganizer.InfoFileOrganizer();
+            int actual = workInfoFileOrganizer.InfoFileOrganizer("Дедушка");
 
             Assert.Equal(expected, actual);
         }
